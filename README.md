@@ -43,7 +43,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 - **GitHub:** https://github.com/sicxz/DESN368-code-design-workspace ⏳
 - **Workspace (Forked Repo):** https://github.com/Gavlf/DESN368-Gav-code-design-workspace ⏳
 - **Figma:** [Add your Figma username here] ⏳
-- **CodePen:** [Add your CodePen profile URL here] ⏳
+- **CodePen:** https://codepen.io/Gavlf ⏳
 - **LiveCode:** [Add your LiveCode profile here] ⏳
 - **GitHub Student Pack:** [Confirm approval status here] ⏳  
 
