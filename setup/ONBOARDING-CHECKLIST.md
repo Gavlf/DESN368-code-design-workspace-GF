@@ -1,7 +1,7 @@
 # 🚀 DESN368 Tool Setup Checklist
 
 ## Progress Tracker
-- [ ] 🐙 GitHub Account  
+- [ x ] 🐙 GitHub Account  
 - [ ] 🗂️ Workspace Setup (fork repo + README update)  
 - [ ] 🎨 Figma Education Account & Team Access  
 - [ ] 💻 CodePen Account & Profile  
