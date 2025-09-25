@@ -52,7 +52,6 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
    - Change `[Add your forked repo link here]` → `https://github.com/YourUsername/DESN368-code-design-workspace`  
    - Change `[Add your Figma username here]` → your Figma username  
    - Change `[Add your CodePen profile URL here]` → `https://codepen.io/YourUsername`  
-   - Change `[Add your LiveCode profile here]` → your LiveCode link  
    - Change `[Confirm approval status here]` → `Approved` or `Pending` for GitHub Pack  
 3. Scroll to bottom and click **"Commit changes"**  
 4. Repeat this process each time you complete a new tool setup  
