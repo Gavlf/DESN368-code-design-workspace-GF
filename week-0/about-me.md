@@ -93,7 +93,7 @@ VCD
 - [ ] Server communication
 
 **13. One thing you hope to create by course end:**  
-[Your answer here]
+By the end of the course, I hope to develop a tool that I can utilize in my daily life.
 
 ---
 *This intake will help me understand your background and tailor the course experience. Feel free to expand on any answers!*
