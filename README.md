@@ -44,7 +44,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 - **Workspace (Forked Repo):** https://github.com/sicxz/DESN368-code-design-workspace ⏳
 - **Figma:** Gfigueroa ⏳
 - **CodePen:** https://codepen.io/Gavlf ⏳
-- **GitHub Student Pack:** [Confirm approval status here] ⏳  
+- **GitHub Student Pack:** Approved ⏳  
 
 ### **How to Update Your Toolkit:**
 1. **Click the pencil icon** (✏️) at the top right of this README  
