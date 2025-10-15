@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to right, white, lightgray);
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img{
+    margin: auto;
+    padding: 15px;
+    display: block;
+    max-width: 70%;
+    height: auto;
+    width: 300px;
+}
+
+header {
+    text-align: center;
+}
+
+h2{
+    padding: 1px;
+}
+
+#helpful-links{
+    margin-top: 10px;
+}
