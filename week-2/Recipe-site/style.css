@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, white, lightgray);
+    background-color: #fefae0;
     max-width: 600px; 
     margin: 0 auto;
     padding: 20px;
@@ -7,15 +7,25 @@ body {
 
 img{
     margin: auto;
-    padding: 15px;
     display: block;
     max-width: 70%;
     height: auto;
     width: 300px;
+    border: 5px solid #dda15e;
+    border-radius: 10px;
 }
 
 header {
     text-align: center;
+    color: #804919;
+}
+
+header h1{
+     color: #606c38;
+}
+
+h2{
+    color: #606c38;
 }
 
 h2{
@@ -24,4 +34,26 @@ h2{
 
 #helpful-links{
     margin-top: 10px;
+}
+
+a{
+    color: #283618;
+}
+
+#helpful-links p{
+   color: #804919;
+}
+
+footer{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+credits{
+    text-align: center;
+    font-size: 0.9em;
+}
+
+b{
+    color: 91531D;
 }
