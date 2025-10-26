@@ -30,3 +30,19 @@ article h3{
     font-size: 24px;
     font-weight: 550;
 }
+ul{
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.additional-info p:first-child{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    display: inline-block;
+}
