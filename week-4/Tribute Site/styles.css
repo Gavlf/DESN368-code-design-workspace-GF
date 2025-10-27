@@ -12,11 +12,13 @@ header h1{
     font-family: 'Source Sans 3', sans-serif;
     font-size: 20px;
     font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
 
 #header-sub{
     margin-top: -30px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 figure img {
@@ -28,15 +30,16 @@ figure img {
 article h3{
     font-family: 'Playfair Display', serif;
     font-size: 24px;
-    font-weight: 550;
+    font-weight: 450;
 }
 ul{
     list-style: none;
+    list-style-position: inside;
     text-align: left;
-    display: inline-block;
     font-family: 'Source Sans 3', sans-serif;
     font-size: 16px;
     font-weight: 300;
+    margin-top: -2px;
 }
 
 .additional-info p:first-child{
@@ -44,5 +47,50 @@ ul{
     font-size: 20px;
     font-weight: 300;
     text-align: left;
-    display: inline-block;
 }
+
+.bold{
+    font-size: 26px;
+    font-weight: 350;
+}
+
+.highlight{
+    font-weight:380;
+    color: #353535;
+}
+.additional-info a{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.additional-info p:last-child{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.background{
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 16px;
+    width: 600px;
+    height: 141px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+#timeline{
+    display:flex;
+    justify-content: center;
+}
+
+#bottom-section{
+}
+
+*{
+    outline:2px solid red;
+}
+
