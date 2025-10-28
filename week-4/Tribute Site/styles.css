@@ -1,36 +1,42 @@
-body{
-    text-align: center;
-}
 
 header h1{ 
     font-family: 'Playfair Display', serif;
     font-size: 64px;
     font-weight: 550;
+    text-align: center;
 }
 
 .subtitle{
     font-family: 'Source Sans 3', sans-serif;
     font-size: 20px;
     font-weight: 300;
-    margin-top: 5px;
-    margin-bottom: 30px;
+    margin-top: -1px;
+    margin-bottom: 22px;
+    text-align: center;
 }
 
 #header-sub{
-    margin-top: -30px;
-    margin-bottom: 25px;
+    margin-top: -34px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-figure img {
+figure img{
     width: 664px;
     height: 449px;
     border-radius: 16px;
 }
 
+.image{
+    text-align: center;
+}
 article h3{
     font-family: 'Playfair Display', serif;
     font-size: 24px;
     font-weight: 450;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 22px;
 }
 ul{
     list-style: none;
@@ -48,11 +54,13 @@ ul{
     font-size: 20px;
     font-weight: 300;
     text-align: left;
+    display: inline-block;
+    width:600px;
 }
 
 .bold{
     font-size: 26px;
-    font-weight: 350;
+    font-weight: 900px;
 }
 
 .highlight{
@@ -89,9 +97,10 @@ ul{
 }
 
 #bottom-section{
+    margin-top: 18px;
+    text-align: center;
 }
 
 *{
-    outline:2px solid red;
+    border: solid red 2px;
 }
-
