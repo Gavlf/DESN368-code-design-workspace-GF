@@ -1,4 +1,5 @@
 
+/* Header of page */
 header h1{ 
     font-family: 'Playfair Display', serif;
     font-size: 64px;
@@ -6,30 +7,36 @@ header h1{
     text-align: center;
 }
 
+/* Subtitle below image */
 .subtitle{
     font-family: 'Source Sans 3', sans-serif;
     font-size: 20px;
     font-weight: 300;
     margin-top: -1px;
-    margin-bottom: 22px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
+/*Subtitle below header */
 #header-sub{
     margin-top: -34px;
     margin-bottom: 20px;
     text-align: center;
 }
 
+/* Image styling */
 figure img{
     width: 664px;
     height: 449px;
     border-radius: 16px;
 }
 
+/* Centering for image */
 .image{
     text-align: center;
 }
+
+/* Article section styling */
 article h3{
     font-family: 'Playfair Display', serif;
     font-size: 24px;
@@ -38,6 +45,8 @@ article h3{
     margin-top: 5px;
     margin-bottom: 22px;
 }
+
+/* Unordered list styling (timeline) */
 ul{
     list-style: none;
     list-style-position: inside;
@@ -49,6 +58,7 @@ ul{
     padding: 0;
 }
 
+/* Selects the link description section in the additional info section (footer) */
 .additional-info p:first-child{
     font-family: 'Source Sans 3', sans-serif;
     font-size: 20px;
@@ -58,15 +68,22 @@ ul{
     width:600px;
 }
 
+/* Bold text styling for the headers of each of the timeline elements*/
 .bold{
     font-size: 26px;
-    font-weight: 900px;
+    font-weight: 370;
+    padding-bottom: 10px;
+    display: block;
+    margin-bottom: -5px;
 }
 
+/* Highlight for secondary header/sectioning of each timeline element */
 .highlight{
     font-weight:380;
     color: #353535;
 }
+
+/* Selects and styles the link in the footer */
 .additional-info a{
     font-family: 'Source Sans 3', sans-serif;
     font-size: 20px;
@@ -74,6 +91,7 @@ ul{
     text-decoration: none;
 }
 
+/* Selects and styles the site attribution in the footer */
 .additional-info p:last-child{
     font-family: 'Source Sans 3', sans-serif;
     font-size: 12px;
@@ -81,26 +99,53 @@ ul{
     margin-top: 20px;
 }
 
+/* Selects and styles the background for each li element in the timeline */
 .background{
     background-color: #f0f0f0;
-    padding: 10px;
+    padding: 2px;
+    padding-bottom: 2px;
     border-radius: 16px;
     width: 600px;
     height: 141px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
-
 }
 
+/* Centers the timeline section */
 #timeline{
     display:flex;
     justify-content: center;
 }
 
+/* Aligns the text in the footer*/
 #bottom-section{
-    margin-top: 18px;
+    margin-top: -18px;
     text-align: center;
 }
 
-*{
-    border: solid red 2px;
+/* Selects only the text of each li element and spaces them within the background*/
+#list-text{
+    padding: 20px;
+    padding-top:18px;
 }
+
+/* Adds spacing between each li element */
+li{
+    margin-bottom: 38px;
+}
+
+/* Selects and styles the quote in the footer */
+.additional-info h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px; 
+}
+
+/* Styles the quote text only excluding the quotations*/
+#quote-text{
+    font-weight:350;
+}
+
+/* Styles the quote attribute (author) */
+#quote-attribute{
+    font-family: 'Source Sans 3', sans-serif;
+}
+
