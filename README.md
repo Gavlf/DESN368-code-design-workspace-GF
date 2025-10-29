@@ -60,7 +60,8 @@ This repository documents my work in Design + Code 1 (DESN368) during the Fall Q
 **Key Takeaways:**
 - CSS allows designers to select and design elements on a page to fit their desired visual aesthetic and create a pleasant user experience.
 
----
+**Files:**
+- Intro to CSS Exercises: https://github.com/Gavlf/DESN368-code-design-workspace-GF/blob/main/week-3/README.md
 
 <h3>4️⃣ Week 4 - Repository Organization & Documentation</h3>
 
@@ -77,6 +78,7 @@ This repository documents my work in Design + Code 1 (DESN368) during the Fall Q
 - Tribute Site Project: https://gavlf.github.io/DESN368-code-design-workspace-GF/week-4/Tribute%20Site/tribute-site-micheal-jackson-gf-f25.html
 
 **Tasks Completed:**
+<br>
 [x] Organized repo with week folders
 <br>
 [x] Archived original README
@@ -92,10 +94,10 @@ This repository documents my work in Design + Code 1 (DESN368) during the Fall Q
 
 <h3>🔨 Tools Used</h3>
 
-- VS Code
-- Firefox Developer Edition
-- GitHub
-- Codepen
+- VS Code: https://code.visualstudio.com/
+- Firefox Developer Edition: https://www.firefox.com/en-US/channel/desktop/developer/
+- GitHub: https://github.com/
+- Codepen: https://codepen.io/your-work
 
 ---
 
