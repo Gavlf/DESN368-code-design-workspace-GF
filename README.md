@@ -1,10 +1,10 @@
-⭐ DESN368 - Web Design 1 Portfolio
+⭐ <h1>DESN368 - Web Design 1 Portfolio</h1>
 
-⁉️ About This Repository:
+⁉️ <h2>About This Repository:</h2>
 
 This repository documents my work in Design + Code 1 (DESN368) during the Fall Quarter of 2025. Here you'll find my projects, experiments, notes, and class exercises as I learn HTML, CSS, and the fundamentals of web design.
 
-👁️ Course Overview
+👁️ <h3>Course Overview</h3>
 
 - **Instructor:** Travis Masingale
 - **Institution:** Eastern Washington University
@@ -12,7 +12,7 @@ This repository documents my work in Design + Code 1 (DESN368) during the Fall Q
 
 ---
 
-1️⃣ Week 1 - Introduction to the Internet and the Web
+1️⃣ <h3>Week 1 - Introduction to the Internet and the Web</h3>
 
 **Topics Covered:**
 - What is the Internet vs. the World Wide Web
@@ -30,7 +30,7 @@ This repository documents my work in Design + Code 1 (DESN368) during the Fall Q
   
 ---
 
-2️⃣ Week 2 - [Topic Title]
+2️⃣ <h3>Week 2 - Semantic HTML</h3>
 
 **Topics Covered:**
 - Semantic HTML
@@ -50,7 +50,7 @@ This repository documents my work in Design + Code 1 (DESN368) during the Fall Q
 
 ---
 
-3️⃣ Week 3 - [Topic Title]
+3️⃣ <h3>Week 3 - Intro to CSS</h3>
 
 **Topics Covered:**
 - CSS Fundamentals
@@ -62,7 +62,7 @@ This repository documents my work in Design + Code 1 (DESN368) during the Fall Q
 
 ---
 
-4️⃣ Week 4 - Repository Organization & Documentation
+4️⃣ <h3>Week 4 - Repository Organization & Documentation</h3>
 
 **Topics Covered:**
 - Repository organization
@@ -78,17 +78,19 @@ This repository documents my work in Design + Code 1 (DESN368) during the Fall Q
 
 **Tasks Completed:**
 [x] Organized repo with week folders
+<br>
 [x] Archived original README
+<br>
 [x] Created new portfolio-style README
 
 ---
 
-🆘 Resources
+🆘 <h3>Resources</h3>
 
 - Course Syllabus: https://desn368-f25.netlify.app/syllabus/
 - W3Schools: https://www.w3schools.com/html/
 
-🔨 Tools Used
+🔨 <h3>Tools Used</h3>
 
 - VS Code
 - Firefox Developer Edition
