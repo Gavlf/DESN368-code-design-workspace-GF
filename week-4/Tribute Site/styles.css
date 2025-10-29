@@ -29,6 +29,8 @@ figure img{
     width: 664px;
     height: 449px;
     border-radius: 16px;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Centering for image */
