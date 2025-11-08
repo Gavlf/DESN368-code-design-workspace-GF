@@ -77,14 +77,36 @@ This repository documents my work in Design + Code 1 (DESN368) during the Fall Q
 - Developer Tools Practice: https://gavlf.github.io/DESN368-code-design-workspace-GF/week-4/dev-tools-figueroa-gavin-wk4.html
 - Tribute Site Project: https://gavlf.github.io/DESN368-code-design-workspace-GF/week-4/Tribute%20Site/tribute-site-micheal-jackson-gf-f25.html
 
-**Tasks Completed:**
-<br>
-[x] Organized repo with week folders
-<br>
-[x] Archived original README
-<br>
-[x] Created new portfolio-style README
+---
 
+<h3>5️⃣ Week 5 - Flexbox Introduction</h3>
+
+**Topics Covered:**
+- 
+- 
+- 
+
+**Key Takeaways:**
+- 
+
+**Files:**
+- Flexbox Interactive Tutorial: https://codepen.io/Gavlf/pen/YPwBzYG
+  
+---
+
+<h3>6️⃣ Week 6 - Responsive Design and Mobile Layouts</h3>
+
+**Topics Covered:**
+- 
+- 
+- 
+
+**Key Takeaways:**
+- 
+
+**Files:**
+- Flexbox Mobile Nav Interactive Tutorial: https://codepen.io/Gavlf/pen/RNrzYzo
+  
 ---
 
 <h3>🆘 Resources</h3>
