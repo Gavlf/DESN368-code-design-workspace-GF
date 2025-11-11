@@ -70,6 +70,7 @@ hr{
     left: 0;
     -webkit-text-stroke: 0;
   }
+  
 
 .sidebar ul {
   list-style: none;
@@ -92,12 +93,12 @@ hr{
   background: rgba(255, 255, 255, 0.1);
 }
 
-
 .content {
   flex: 1;
   padding: 2rem;
   background: #D4EEFB;
 }
+
 
 .content section {
   background: #F1FEFF;
@@ -105,6 +106,40 @@ hr{
   margin-bottom: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#intro {
+  position: relative;
+  overflow: hidden;
+  min-height: 320px; 
+}
+
+#intro::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("Images/hero-image.png");
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: brightness(0.55); 
+  transform: scale(1.08); 
+}
+
+#intro > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+@media (max-width: 900px){
+  #intro { min-height: 260px; }
+  #intro::before { transform: scale(1.02); filter: brightness(0.6); }
+}
+
+@media (max-width: 600px){
+  #intro { min-height: 220px; }
+  #intro::before { background-position: center top; }
 }
 
 .content h2 {
@@ -118,6 +153,16 @@ hr{
   margin-bottom: 1rem;
   color:#004887;
   font-weight:500;
+  font-size: 1.1rem;
+}
+
+#credit-nook{
+  margin-top: 115px;
+}
+
+#intro p{
+  color:white;
+  font-weight: 500;
   font-size: 1.1rem;
 }
 
@@ -136,17 +181,8 @@ hr{
   margin-bottom: 0.75rem;
 }
 
-
 .mobile-header {
   display: none;
-}
-
-.content img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .sidebar-toggle {
