@@ -147,6 +147,14 @@ hr{
   margin-bottom: 1rem;
   font-size: 1.8rem;
   font-weight: 600;
+  padding-left: 47px;
+}
+
+.deco img{
+  width:200px;
+  height: auto;
+  opacity: 0.10;
+  filter: grayscale(100%);
 }
 
 .content p {
