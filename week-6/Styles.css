@@ -144,7 +144,7 @@ hr{
   background-size: cover; 
   background-position: center center;
   background-repeat: no-repeat;
-  filter: brightness(0.55);
+  filter: brightness(0.39);
   transform: scale(1.08); 
 }
 
@@ -156,7 +156,7 @@ hr{
 
 @media (max-width: 900px){
   #intro { min-height: 260px; }
-  #intro::before { transform: scale(1.02); filter: brightness(0.6); }
+  #intro::before { transform: scale(1.02); filter: brightness(0.39); }
 }
 
 @media (max-width: 600px){
@@ -202,13 +202,16 @@ code{
 }
 
 #credit-nook{
-  margin-top: 115px;
+  margin-top: 135px;
+  margin-bottom: -10px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #intro p{
   color:white;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .content ul {
