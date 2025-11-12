@@ -106,6 +106,7 @@ This repository documents my work in Design + Code 1 (DESN368) during the Fall Q
 
 **Files:**
 - Flexbox Mobile Nav Interactive Tutorial: https://codepen.io/Gavlf/pen/RNrzYzo
+- Field Guide Website: https://gavlf.github.io/DESN368-code-design-workspace-GF/week-6/field-guide-site.html
   
 ---
 
