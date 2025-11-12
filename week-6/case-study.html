@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Styles copy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Crossing: Summer Fishing Guide Case Study</title>
+</head>
+
+<body>
+  <main class="container">
+    <input type="checkbox" id="sidebar-toggle" class="sidebar-toggle">
+    <nav class="sidebar">
+        <div class="fixed">
+       <span><h2>Animal Crossing: <br> Summer Fishing Guide</h2></span>
+        </div>
+        <div class="broken">
+       <span><h2>Animal Crossing: <br> Summer Fishing Guide</h2></span>
+        </div>
+        <hr id="header-ruler">
+      <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#design">Design Decisions</a></li>
+        <li><a href="#challenges">Technical Challenges</a></li>
+        <li><a href="#responsive-strategy">Responsive Strategy</a></li>
+        <li><a href="#learning-moments">Learning Moments</a></li>
+        <li><a href="#future-improvements">Future Improvements</a></li>
+      </ul>
+    </nav>
+
+    <div class="mobile-header">
+       <div class="broken">
+        <div class="fixed">
+       <span><h2>Animal Crossing: <br> Summer Fishing Guide</h2></span>
+        </div>
+      <span><h2>Animal Crossing: <br> Summer Fishing Guide</h2></span>
+      </div>
+      <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#design">Design Decisions</a></li>
+        <li><a href="#challenges">Technical Challenges</a></li>
+        <li><a href="#responsive-strategy">Responsive Strategy</a></li>
+        <li><a href="#learning-moments">Learning Moments</a></li>
+        <li><a href="#future-improvements">Future Improvements</a></li>
+      </ul>
+    </div>
+  
+
+    <div class="content">
+      <section id="intro">
+         <div class="fixed-h1">
+       <span><h1>Case Study <br> Animal Crossing: Summer Fishing Guide </h1></span>
+        </div>
+        <div class="broken-h1">
+       <span><h1>Case Study <br> Animal Crossing: Summer Fishing Guide </h1></span>
+       <hr id="header-ruler">
+        </div>
+        <p>A look behind the curtains of the Animal Crossing: Summer Fishing Guide.</p>
+        <p id="credit-nook">(© Nook Inc.)</p>
+      </section>
+
+      <section id="design">
+        <h2>Design Decisions</h2>
+        <hr>
+        <p>What design choices did you make and why?</p>
+        <ul>
+          <li><span class="bullet-header">Visual Design: </span>For my field guide page, I chose a simple, minimal visual design that relies primarily on icons and text. Given that the field guide is about summer and fishing, I created a simple palette of blues that really drives the oceanic atmosphere in the design. For my palette, I mainly derived the hues from the hero image to maintain visual consistency and cohesion. While my tones of blue vary widely in saturation, they create a bold, cartoonish style that suits the Animal Crossing theme. </li>
+          <li><span class="bullet-header">Layout Design: </span>In terms of layout, I kept things pretty close to the template provided. I kept the sidebar at a consistent 300 px, as specified in the assignment, while experimenting with icon use and spacing for the link elements. In the mobile version, I simplified the icons and sections to a grid layout to reduce the space taken up by the nav bar, given its tight position at the top of the screen. However, I would have liked to play around with the nav bar on mobile if I had extra time to code it. Overall, my layout is fairly minimal and focuses more on usability than flashy display.
+</li>
+        </ul>
+        <pre><code>Summary: Simple, minimal visual design with focus on usability.</code></pre>
+        <div class="icon" id="fishing-rod">
+          <img src="Images/leaf-icon.png">
+        </div>
+      </section>
+
+      <section id="challenges">
+        <h2>Technical Challenges</h2>
+        <hr>
+        <p>What was difficult to code? How did you solve it?</p>
+        <ul>
+          <li><span class="bullet-header">Mobile Nav Bar: </span> I found it particularly difficult to code the nav bar on mobile. It was very hard to figure out how to fit all of my subsection links into a format that worked well and didn’t take up too much space. I still feel like nav on the mobile version of the site is somewhat incomplete and feels off. For coding, I had to ask Copilot for a lot of help and explanations on what made things work right. Overall, I think it came out decently enough that it is at least functional to use despite its visual appearance. 
+</li>
+          <li><span class="bullet-header">Icons: </span> I also found the icons to be particularly painful to code. At first, I tried using the list-style-image function to replace the bullet points of my li elements with their respective images. However, I quickly learned that I could not adjust the spacing or sizing of my images when I set them within a list-style. After struggling with a lot of selectors, I turned to Copilot and Google to figure out the best solution for my problem. To fix the issues, I ended up setting my icons as background images within my elements so that I could freely play with scale, sizing, and positioning. In the end, I think it worked fairly well despite some minor visual placement glitches on small screens.
+</li>
+        </ul>
+        <pre><code>Summary: The mobile nav bar and icons were a particular challenge to code.</code></pre>
+        <div class="icon" id="sea-bass">
+          <img src="Images/leaf-icon.png">
+        </div>
+      </section>
+
+      <section id="responsive-strategy">
+        <h2>Responsive Strategy</h2>
+        <hr>
+        <p>How did you adapt your design for mobile?</p>
+        <ul>
+          <li><span class="bullet-header">Mobile Navigation:</span> When adapting my site for mobile, I struggled immensely with the nav bar. It was tough to fit all the content I needed into a small space without taking up too much of an already tiny screen. It took a lot of help from Copilot to even get my elements positioned right without breaking my entire layout. After a while, I reached a point I was somewhat content with and decided to invest my time into other parts of the layout. Overall, I think the website looks better on a desktop or a tablet than mobile overall, as the content fits far better on a medium to large screen. I would like to reapproach my navigation bar in the future.</li>
+          <li><span class="bullet-header">Usability on Mobile:</span> Otherwise, I tried my best to make the content easy to view for the reader within a flexbox layout. All of my main content, including the hero section, is responsive to screen size and shrinks/expands with ease. While there are some issues with the icons on particularly small mobile screens, the text stays legible. In that respect, I feel that my efforts to improve usability across screens were successful. However, there is plenty of room for growth and improvement when it comes to visuals.
+</li>
+        </ul>
+         <pre><code>Summary: While there were struggles, mobile responsiveness was fairly successful.</code></pre>
+        <div class="icon" id="bell-icon">
+          <img src="Images/leaf-icon.png">
+        </div>
+      </section>
+
+      <section id="learning-moments">
+        <h2>Learning Moments</h2>
+        <hr>
+        <p> What did you learn about Flexbox or CSS positioning?</p>
+        <ul>
+          <li><span class="bullet-header">Copilot and Flexbox:</span> Through my time coding, Copilot was very helpful in explaining certain elements of flexbox and CSS positioning I was not familiar with. In particular, my work with the li elements and positioning icons taught me a lot about using the before:: pseudo-element for placement. Alongside this, working with the nav bars taught me a lot about using media queries across multiple elements to ensure all content responds well. Overall, I learned a lot about working with my resources to resolve challenges with flexbox and positioning.
+</li>
+          <li><span class="bullet-header">My Understanding:</span> In terms of my overall knowledge of flexbox and CSS positioning, I think I could use some more time with it. I do not, for sure, remember every single selector or parameter for placing things. Copilot was something I relied on heavily for figuring out positioning, alongside Google. While the tutorials we completed in class were somewhat helpful, the amount of content discussed felt overwhelming and left me feeling like I didn’t fully understand the content. I think that this is a part of the code that comes with a lot of practice, patience, and experience building layouts.
+</li>
+        </ul>
+         <pre><code>Summary: Copilot was a helpful resource, yet more time is needed to learn CSS positioning and flexbox fully.</code></pre>
+        <div class="icon" id="timer">
+          <img src="Images/leaf-icon.png">
+        </div>
+      </section>
+
+      <section id="future-improvements">
+        <h2>Future Improvments</h2>
+        <hr>
+        <p>What would you add or change with more time?</p>
+        <ul>
+          <li><span class="bullet-header">Visual Tweaks:</span>I would change so many things! I think in terms of visuals, I want to work more on fixing the weird glitch that appears with conflicts between my variable font and the border around my H1 text. I would also like to add the same decoration from my Figma document to my nav bar on both desktop and mobile. Icons in the mobile version could use some readjustment to fit with smaller screen sizes overall. I also think spacing is a bit off in my content sections, somewhat, but very minorly.</li>
+          <li><span class="bullet-header">Content Changes:</span> In terms of content, I would like to do more with my guide. Right now, it is not very descriptive and relatively simple. I would much rather have more detailed content linked to separate HTML pages, so users can find additional useful information. However, the specifications for this assignment were more focused on layout than on content writing. Overall, I would just like to make my guide more useful to a user rather than a repeat of basic info.
+</li>
+        </ul>
+         <pre><code>Summary: There is a lot that could be changed in terms of visuals and content overall.</code></pre>
+        <div class="icon" id="coin">
+          <img src="Images/leaf-icon.png">
+        </div>
+      </section>
+
+    <footer>
+      <!-- Footer-only styles so we don't touch external CSS files -->
+      <style>
+        .footer-inner { display:flex !important; gap:2rem !important; justify-content:center !important; align-items:center !important; max-width:900px !important; margin:2rem auto 3rem !important; }
+        .footer-btn { display:inline-flex !important; align-items:center !important; justify-content:center !important; text-decoration:none !important; color:#fff !important; background: linear-gradient(180deg,#1aa1ff 0%, #0784F2 100%) !important; padding:14px 48px !important; border-radius:14px !important; box-shadow:0 10px 20px rgba(7,132,242,0.18) !important; font-weight:600 !important; font-size:18px !important; border:none !important; }
+        .footer-btn:hover { transform: translateY(-3px); box-shadow:0 14px 28px rgba(7,132,242,0.22) !important; }
+        @media (max-width:768px) { .footer-inner { gap:1rem; padding:0 1rem; } .footer-btn { padding:10px 28px !important; font-size:16px !important; } }
+      </style>
+
+      <div class="footer-inner">
+        <a class="footer-btn" href="#field-guide.html">Back to Guide</a>
+        <a class="footer-btn" href="#">View Portfolio</a>
+      </div>
+      </footer>
+    </main>
+</body>
+</html>
