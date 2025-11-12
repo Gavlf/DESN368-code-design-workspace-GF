@@ -317,4 +317,5 @@ code{
   .sidebar ul li:nth-child(4)::before { background-image: url("Images/bell-icon.png"); }
   .sidebar ul li:nth-child(5)::before { background-image: url("Images/timer-icon.png"); }
   .sidebar ul li:nth-child(6)::before { background-image: url("Images/coin-icon.png"); }
-  }
+}
+  
