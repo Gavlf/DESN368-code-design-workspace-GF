@@ -412,6 +412,9 @@ code{
    Make <pre><code> blocks flex with surrounding content so the
    code area wraps and grows/shrinks responsively.
    -------------------------- */
+  
+  
+  
 .content pre {
   display: flex;
   align-items: center;
@@ -422,10 +425,54 @@ code{
   overflow: auto; 
   white-space: normal; 
 
-.content pre code {
+  .content pre code {
   white-space: pre-wrap; 
   word-break: break-word;
   flex: 1 1 auto; 
   color: #0784F2;
   background: transparent; 
+}
+
+
+
+
+/* --------------------------
+   16) Footer buttons
+   -------------------------- */
+footer {
+  padding: 2rem;
+  max-width: calc(100% - 300px);
+  margin: 0 auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+footer .btn,
+footer button {
+  font-family: inherit;
+  font-size: 1.8rem;    
+  font-weight: 600;
+  color: #004887;      
+  background: #ffffff;  
+  border: 2px solid #004887;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+footer .btn + .btn,
+footer button + button {
+  margin-left: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  footer { max-width: 100%; padding: 1rem; }
+  footer .btn, footer button { font-size: 1.4rem; padding: 0.45rem 0.9rem; }
 }

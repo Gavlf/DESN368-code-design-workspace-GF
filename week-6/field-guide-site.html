@@ -137,10 +137,21 @@
           <img src="Images/coin-icon.png">
         </div>
       </section>
-    </div>
-  </main>
 
-  <footer>
-  </footer>
+    <footer>
+      <!-- Footer-only styles so we don't touch external CSS files -->
+      <style>
+        .footer-inner { display:flex !important; gap:2rem !important; justify-content:center !important; align-items:center !important; max-width:900px !important; margin:2rem auto 3rem !important; }
+        .footer-btn { display:inline-flex !important; align-items:center !important; justify-content:center !important; text-decoration:none !important; color:#fff !important; background: linear-gradient(180deg,#1aa1ff 0%, #0784F2 100%) !important; padding:14px 48px !important; border-radius:14px !important; box-shadow:0 10px 20px rgba(7,132,242,0.18) !important; font-weight:600 !important; font-size:18px !important; border:none !important; }
+        .footer-btn:hover { transform: translateY(-3px); box-shadow:0 14px 28px rgba(7,132,242,0.22) !important; }
+        @media (max-width:768px) { .footer-inner { gap:1rem; padding:0 1rem; } .footer-btn { padding:10px 28px !important; font-size:16px !important; } }
+      </style>
+
+      <div class="footer-inner">
+        <a class="footer-btn" href="#">View Portfolio</a>
+        <a class="footer-btn" href="#case-study.html">View Case Study</a>
+      </div>
+      </footer>
+    </main>
 </body>
 </html>
