@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+  scroll-padding: 2rem;
+}
+
 body {
   font-family: "Outfit", sans-serif;
   line-height: 1.6;
@@ -45,6 +50,10 @@ hr{
   background: #0784F2;
   color: white;
   padding: 2rem 1.5rem;
+  position: sticky;            
+  top:0;
+  align-self: flex-start;
+  min-height: 100vh
 }
 
 .sidebar h2 {
@@ -88,12 +97,6 @@ hr{
     color: white;
   }
   
-
-.sidebar ul {
-  list-style-image: url("Images/bell-icon-tiny.png")
-  padding-left: 20px;
-}
-
 .sidebar li {
   margin-bottom: 0.5rem;
 }
@@ -141,7 +144,7 @@ hr{
   background-size: cover; 
   background-position: center center;
   background-repeat: no-repeat;
-  filter: brightness(0.55); 
+  filter: brightness(0.55);
   transform: scale(1.08); 
 }
 
@@ -278,3 +281,37 @@ code{
   .icon { left: 16px; top: calc(1.5rem + 0.8rem); width: 40px; }
 }
 }
+
+  .sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .sidebar ul li {
+    position: relative;
+    padding-left: 35px; 
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+  }
+
+  .sidebar ul li::before {
+    content: "";
+    position: absolute;
+    left: 0px; 
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .sidebar ul li:nth-child(1)::before { background-image: url("Images/leaf-icon.png"); }
+  .sidebar ul li:nth-child(2)::before { background-image: url("Images/fishing-rod-icon.png"); }
+  .sidebar ul li:nth-child(3)::before { background-image: url("Images/sea-bass-icon.png"); }
+  .sidebar ul li:nth-child(4)::before { background-image: url("Images/bell-icon.png"); }
+  .sidebar ul li:nth-child(5)::before { background-image: url("Images/timer-icon.png"); }
+  .sidebar ul li:nth-child(6)::before { background-image: url("Images/coin-icon.png"); }
+  }
