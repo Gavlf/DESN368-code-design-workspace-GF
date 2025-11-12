@@ -1,4 +1,8 @@
 
+
+/* --------------------------
+   1) Reset & Root
+   -------------------------- */
 * {
   margin: 0;
   padding: 0;
@@ -16,12 +20,18 @@ body {
   color: #333;
 }
 
+/* --------------------------
+   2) Typography / Headings
+   -------------------------- */
 h1{
   color: white;
   font-size: 40px;
   font-weight: 600;
 }
 
+/* --------------------------
+   3) Rulers
+   -------------------------- */
 #header-ruler{
   background-color: #FFF;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -39,12 +49,17 @@ hr{
   border-radius: 2px;
 }
 
+/* --------------------------
+   4) Layout (.container)
+   -------------------------- */
 .container {
   display: flex;
   min-height: calc(100vh - 200px);
 }
 
-
+/* --------------------------
+   5) Sidebar
+   -------------------------- */
 .sidebar {
   flex: 0 0 300px;
   background: #0784F2;
@@ -60,43 +75,48 @@ hr{
   margin-bottom: 1.5rem;
   font-size: 24px;
   font-weight: 600;
-  }
+}
 
-
-  .broken {
+/* --------------------------
+   6) Heading-stroke helpers
+   (visual effect helpers used for layered headings)
+   -------------------------- */
+.broken {
   -webkit-text-stroke: 5px #0784F2;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-  .fixed {
-    position: relative;
-    -webkit-text-stroke: 10px #0784F2;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  }
-
-  .fixed span{
-    position: absolute;
-    left: 0;
-    -webkit-text-stroke: 0;
-  }
-
-  .broken-h1 {
-  
+.fixed {
+  position: relative;
+  -webkit-text-stroke: 10px #0784F2;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-  .fixed-h1 {
-    position: relative;
-    -webkit-text-stroke: 10px #0784F2;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  }
+.fixed span{
+  position: absolute;
+  left: 0;
+  -webkit-text-stroke: 0;
+}
 
-  .fixed-h1 span{
-    position: absolute;
-    left: 0;
-    color: white;
-  }
-  
+.broken-h1 {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.fixed-h1 {
+  position: relative;
+  -webkit-text-stroke: 10px #0784F2;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.fixed-h1 span{
+  position: absolute;
+  left: 0;
+  color: white;
+}
+
+/* --------------------------
+   7) Sidebar links
+   -------------------------- */
 .sidebar li {
   margin-bottom: 0.5rem;
 }
@@ -114,12 +134,14 @@ hr{
   background: rgba(255, 255, 255, 0.1);
 }
 
+/* --------------------------
+   8) Content column & sections
+   -------------------------- */
 .content {
   flex: 1;
   padding: 2rem;
   background: #D4EEFB;
 }
-
 
 .content section {
   background: #F1FEFF;
@@ -130,6 +152,9 @@ hr{
   position: relative;
 }
 
+/* --------------------------
+   9) Hero (#intro)
+   -------------------------- */
 #intro {
   position: relative;
   overflow: hidden;
@@ -153,7 +178,6 @@ hr{
   z-index: 2;
 }
 
-
 @media (max-width: 900px){
   #intro { min-height: 260px; }
   #intro::before { transform: scale(1.02); filter: brightness(0.39); }
@@ -164,6 +188,9 @@ hr{
   #intro::before { background-position: center top; }
 }
 
+/* --------------------------
+   10) Headings inside content
+   -------------------------- */
 .content h2 {
   color: #004887;
   margin-bottom: 1rem;
@@ -178,6 +205,14 @@ code{
   color:#0784F2
 }
 
+
+@media (max-width: 480px) {
+  .content pre { padding: 0.5rem; gap: 0.5rem; }
+}
+
+/* --------------------------
+   11) Section icons
+   -------------------------- */
 .icon img{
   width: 60px;
   height: auto;
@@ -193,7 +228,9 @@ code{
   z-index: 4; 
 }
 
-
+/* --------------------------
+   12) Paragraphs & misc
+   -------------------------- */
 .content p {
   margin-bottom: 1rem;
   color:#004887;
@@ -229,6 +266,9 @@ code{
   margin-bottom: 0.75rem;
 }
 
+/* --------------------------
+   13) Mobile header & toggles
+   -------------------------- */
 .mobile-header {
   display: none;
 }
@@ -258,11 +298,57 @@ code{
   font-weight: 600;
 }
 
-
 @media (max-width: 768px) {
   .mobile-header {
     display: flex;
   }
+
+  /* mobile header list: visible on mobile and arranged as 3-up grid */
+  .mobile-header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    align-items: start;
+  }
+
+  /* tiles: icon above label */
+  .mobile-header ul li {
+    position: relative;
+    padding-top: 52px; 
+    text-align: center;
+  }
+
+  .mobile-header ul li::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 36px;
+    height: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .mobile-header a {
+    color: #ecf0f1;
+    text-decoration: none;
+    display: block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+
+  .mobile-header ul li:nth-child(1)::before { background-image: url("Images/leaf-icon.png"); }
+  .mobile-header ul li:nth-child(2)::before { background-image: url("Images/fishing-rod-icon.png"); }
+  .mobile-header ul li:nth-child(3)::before { background-image: url("Images/sea-bass-icon.png"); }
+  .mobile-header ul li:nth-child(4)::before { background-image: url("Images/bell-icon.png"); }
+  .mobile-header ul li:nth-child(5)::before { background-image: url("Images/timer-icon.png"); }
+  .mobile-header ul li:nth-child(6)::before { background-image: url("Images/coin-icon.png"); }
 
   .container {
     flex-direction: column;
@@ -280,42 +366,66 @@ code{
   }
 
   @media (max-width: 480px) {
-  .content h2 { padding-left: 72px; font-size: 1.4rem; }
-  .icon { left: 16px; top: calc(1.5rem + 0.8rem); width: 40px; }
-}
-}
-
-  .sidebar ul {
-    list-style: none;
-    padding-left: 0;
-    margin-left: 0;
+    .content h2 { padding-left: 72px; font-size: 1.4rem; }
+    .icon { left: 16px; top: calc(1.5rem + 0.8rem); width: 40px; }
   }
-
-  .sidebar ul li {
-    position: relative;
-    padding-left: 35px; 
-    margin-bottom: 0.5rem;
-    line-height: 1.2;
-  }
-
-  .sidebar ul li::before {
-    content: "";
-    position: absolute;
-    left: 0px; 
-    top: 50%;
-    transform: translateY(-50%);
-    width: 36px;
-    height: 36px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  .sidebar ul li:nth-child(1)::before { background-image: url("Images/leaf-icon.png"); }
-  .sidebar ul li:nth-child(2)::before { background-image: url("Images/fishing-rod-icon.png"); }
-  .sidebar ul li:nth-child(3)::before { background-image: url("Images/sea-bass-icon.png"); }
-  .sidebar ul li:nth-child(4)::before { background-image: url("Images/bell-icon.png"); }
-  .sidebar ul li:nth-child(5)::before { background-image: url("Images/timer-icon.png"); }
-  .sidebar ul li:nth-child(6)::before { background-image: url("Images/coin-icon.png"); }
 }
-  
+
+/* --------------------------
+   14) Sidebar list icons
+   -------------------------- */
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.sidebar ul li {
+  position: relative;
+  padding-left: 35px; 
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.sidebar ul li::before {
+  content: "";
+  position: absolute;
+  left: 0px; 
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sidebar ul li:nth-child(1)::before { background-image: url("Images/leaf-icon.png"); }
+.sidebar ul li:nth-child(2)::before { background-image: url("Images/fishing-rod-icon.png"); }
+.sidebar ul li:nth-child(3)::before { background-image: url("Images/sea-bass-icon.png"); }
+.sidebar ul li:nth-child(4)::before { background-image: url("Images/bell-icon.png"); }
+.sidebar ul li:nth-child(5)::before { background-image: url("Images/timer-icon.png"); }
+.sidebar ul li:nth-child(6)::before { background-image: url("Images/coin-icon.png"); }
+
+/* --------------------------
+   15) Responsive code / pre blocks
+   Make <pre><code> blocks flex with surrounding content so the
+   code area wraps and grows/shrinks responsively.
+   -------------------------- */
+.content pre {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  background: rgba(7,132,242,0.04); 
+  overflow: auto; 
+  white-space: normal; 
+
+.content pre code {
+  white-space: pre-wrap; 
+  word-break: break-word;
+  flex: 1 1 auto; 
+  color: #0784F2;
+  background: transparent; 
+}
