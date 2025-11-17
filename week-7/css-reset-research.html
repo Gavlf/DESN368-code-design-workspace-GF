@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Reset & Normalize Research</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <h1>CSS Reset & Normalize Research</h1>
+    <p>All about CSS resets and normalize.css</p>
+  </header>
+
+  <main class="container">
+    <input type="checkbox" id="sidebar-toggle" class="sidebar-toggle">
+    <nav class="sidebar">
+      <h2>Contents</h2>
+      <label for="sidebar-toggle" class="close-btn">×</label>
+      <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#why-reset">Why Reset?</a></li>
+        <li><a href="#jve">Josh vs. Eric</a></li>
+        <li><a href="#using-rn">Using Reset & Normalize</a></li>
+        <li><a href="#boiler-plates">Boiler Plates</a></li>
+        <li><a href="#nvr">Normalize.css vs. Resets</a></li>
+      </ul>
+    </nav>
+
+    <div class="mobile-header">
+      <label for="sidebar-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <h1>CSS Reset & Normalize</h1>
+    </div>
+
+    <div class="content">
+      <section id="intro">
+        <h2>Introduction to CSS Reset & Normalize</h2>
+        <img src="intro-image.jpg" alt="CSS Normalize and Resets">
+        <p>Responsive web design is an approach to web development that creates dynamic changes to the
+          appearance of a website, depending on the screen size and orientation of the device being used to view
+          it.</p>
+        <p>Rather than designing separate websites for different devices, responsive design uses
+          flexible layouts, images, and cascading style sheet media queries to adapt content to any screen.</p>
+        <p>This approach has become essential as users access websites from smartphones, tablets,
+          laptops, and desktop computers with varying screen sizes.</p>
+      </section>
+
+      <section id="why-reset">
+        <h2>Why Reset?</h2>
+        <img src="https://placehold.co/700x350/764ba2/white?text=Fluid+Grids+%26+Flexible+Media" alt="Fluid Grids">
+        <p>The primary reasons to reset your CSS styles are:</p>
+        <ul>
+          <li><strong>Browser Presentation:</strong> All browsers have different styling 'defaults' that define how they handle CSS content like lists, margins, padding, headings, etc.</li>
+          <li><strong>Universal Selector Failures:</strong> Using a universal selector to set all of the margins and padding of your style sheet to 0 can lead to multiple browsers interpreting spacing differently.</li>
+          <li><strong>Mass Removal of Styles:</strong> Certain browser set default styles for multiple elements that can be a pain to manually remove and interfere with design.</li>
+        </ul>
+        <p>Resetting your CSS styles will help create a consistent baseline across browsers, strengthing and refining your web design.</p>
+      </section>
+
+      <section id="jve">
+        <h2>Josh vs. Eric</h2>
+        <img src="https://placehold.co/750x400/3498db/white?text=Flexbox+%26+Grid+Layouts" alt="Flexible
+   Layouts">
+        <p>Eric Meyer's outdated CSS reset and Josh Comeau's more modern CSS reset approaches vary in several ways:</p>
+        <ul>
+          <li><strong>Browser and Default Style Resets:</strong> While Eric chooses to reset all browser default styles, Josh takes the opposite approach arguing that modern browsers already have fairly consistent layout and spacing.</li>
+          <li><strong>CSS Grid:</strong> Two-dimensional layouts perfect for complex page
+            structures.</li>
+          <li><strong>Specificity:</strong> Josh's modern CSS reset chooses to be more selective about exactly what NEEDS to be reset in comparison to the broader nature of Eric's CSS reset.</li>
+          <li><strong>Length and Size:</strong> Comparing the two resets, Josh's is far more compact and efficent compared to the lengthy size of Eric's reset.</li>
+        </ul>
+        <p>Overall, Josh Comeau's approach to the CSS reset is far more useful in a modern context compared to the outdated, lengthy reset created by Eric Meyer.</p>
+      </section>
+
+      <section id="using-rn">
+        <h2>Using Reset and Normalize</h2>
+        <img src="https://placehold.co/800x450/e74c3c/white?text=Image+Optimization" alt="Responsive
+  Images">
+        <p>Resetting or normalizing CSS styles requires a basic structure comprised of:</p>
+        <ul>
+          <li><strong>Selection:</strong> First, select the content in which you want to apply the reset or normalization using css selectors.</li>
+          <li><strong>Deciding Parameters:</strong> Decide how agressive you want your reset or normalization to be by determining which specific styles you will target.</li>
+          <li><strong>Setting Styles:</strong> Apply the desired reset or normalization to the selected styles by placing it within the selector tags.</li>
+        </ul>
+        <p>This is the basic skeleton on which you can build a variety of different normalizations or resets on.</p>
+      </section>
+
+      <section id="boiler-plates">
+        <h2>Boiler Plates</h2>
+        <img src="https://placehold.co/720x380/9b59b6/white?text=Breakpoints+%26+Media+Queries" alt="Media Queries">
+        <p>CSS boiler plates set up a generic structure for your style sheet that have some advantages and disadvantages.:</p>
+        <p><strong>Advantages:</strong></p>
+        <ul>
+          <li>Fast and easy to implement (often copy-paste)</li>
+          <li>Consistent across web projects</li>
+          <li>Often include CSS resets/normalizations natively</li>
+        </ul>
+         <p><strong>Disadvantages:</strong></p>
+        <ul>
+          <li>Can be overly generic or not specific to your needs</li>
+          <li>Less customization control for the basis of your website</li>
+          <li>Can be hard to understand for beginners and therefore difficult to edit</li>
+        </ul>
+        <p>Knowing the pros and cons to boiler plates helps you decide when and how to use them effectively.</p>
+      </section>
+
+      <section id="nvr">
+        <h2>Normalize.css vs. Resets</h2>
+        <img src="https://placehold.co/780x400/27ae60/white?text=Design+Patterns" alt="Responsive
+  Patterns">
+        <p>Normalize.css and CSS resets differ in many ways:</p>
+        <ul>
+          <li><strong>Specificity:</strong> While normalize.css focuses on what specifically needs to be reset, a CSS reset generally removes all built-in browser styling.</li>
+          <li><strong>Length:</strong> While a normalize.css is typically condensed and short in length, a CSS reset tends to be longer and more comprhensive as it applys to more styles.</li>
+          <li><strong>Aggressiveness:</strong> Normalize.css is less aggressive, making minimal changes to preserve useful defaults, whereas CSS resets are more aggressive, removing most or all default styling.</li>
+        </ul>
+        <p>Whether or not to use a normalize.css or a CSS reset depends on your project's specific needs and goals.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gavin Figueroa, DESN 368.</p>
+  </footer>
+</body>
+</html>
