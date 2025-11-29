@@ -1,0 +1,11 @@
+#hero-image{
+    display: flex;
+    justify-content: center;
+}
+
+@media query (max-width: 768px){
+    #hero-image{
+        width: 100%;
+        height: auto;
+    }
+}
