@@ -1,11 +1,100 @@
-#hero-image{
-    display: flex;
-    justify-content: center;
+/* css reset */
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+/* add fonts to css */
+@font-face {
+    font-family: 'Times Ten';
+    src: url('fonts/TimesTen.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Times Ten';
+    src: url('fonts/TimesTenItalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Times Ten';
+    src: url('fonts/TimesTenBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Times Ten';
+    src: url('fonts/TimesTenBoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
 }
 
-@media query (max-width: 768px){
-    #hero-image{
-        width: 100%;
-        height: auto;
+
+/* header */
+#header-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px){
+    #header-img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
     }
+}
+
+/* nav */
+#nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    font-family: 'Times Ten', serif;
+    letter-spacing: 1.92px;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+    padding: 30px;
+}
+
+
+.nav-link a{
+    text-decoration: none;
+    color: #E8B562;
+}
+
+#nav-bar{
+    background-color: #FFF5E9;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+/* video section */
+#product-intro p{
+text-align: center;
+font-family: 'Times Ten', serif;
+font-size: 22px;
+font-weight: 400;
+letter-spacing: 1.92px;
+line-height: 50px;
+margin-top: 50px;
+margin-bottom: 40px;
+}
+
+#product-video{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
