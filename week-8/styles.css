@@ -82,6 +82,12 @@ body {
 }
 
 /* video section */
+#product-intro{
+    background-color: #FDFEFF;
+    margin: 0;
+    padding: 0;
+}
+
 #product-intro p{
 text-align: center;
 font-family: 'Times Ten', serif;
@@ -97,4 +103,42 @@ margin-bottom: 40px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
+}
+
+
+#album-tracklist{
+display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+}
+
+#tracklist-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+}
+
+@media (max-width: 768px){
+
+    #album-tracklist{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    }
+    
+    #tracklist-img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    }
 }
