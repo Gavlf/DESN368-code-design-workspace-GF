@@ -215,3 +215,20 @@ display: flex;
     padding:0;
     background-color: #E5E5E5;
 }
+
+#product-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    font-family: 'Times Ten', serif;
+    font-size: 20px;
+    font-weight:400;
+    letter-spacing: 1.92px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.product-img{
+    width: 300px;
+    height: auto;
+}
