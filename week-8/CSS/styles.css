@@ -207,6 +207,7 @@ display: flex;
     }
 }
 
+/* shop section */
 #product-shop{
     display:flex;
     flex-direction: column;
@@ -219,13 +220,21 @@ display: flex;
 #product-cards{
     display: flex;
     flex-direction: column;
-    justify-content:center;
     font-family: 'Times Ten', serif;
     font-size: 20px;
     font-weight:400;
     letter-spacing: 1.92px;
     margin-top: 50px;
+}
+
+table {
+  border-collapse: separate; 
+  border-spacing: 10px; 
+}
+
+td{
     background-color: white;
+    text-align: center;
 }
 
 .product-img{
