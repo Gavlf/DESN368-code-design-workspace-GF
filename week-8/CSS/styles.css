@@ -55,7 +55,7 @@ body {
 }
 
 /* nav */
-#nav-bar ul{
+#nav-bar-ul{
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -68,10 +68,14 @@ body {
     padding: 30px;
 }
 
-
 .nav-link a{
     text-decoration: none;
-    color: #E8B562;
+    color: transparent;
+    background: #E8B562;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   background-clip: text;
+   text-shadow: 0px 3px 3px rgba(255,255,255,0.5), 0 0 0 rgba(156,112,52,0.5);
 }
 
 #nav-bar{
@@ -81,14 +85,43 @@ body {
     overflow: hidden;
 }
 
+@media (max-width: 768px){
+    #nav-bar{
+        width:100%;
+        height: auto;
+        margin:0;
+        padding: 0;
+    }
+
+    #nav-bar ul{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width:100%;
+        height: auto;
+        margin:0;
+        padding:30px;
+    }
+
+    .nav-link a{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+}
+
 /* video section */
 #product-intro{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #FDFEFF;
     margin: 0;
     padding: 0;
 }
 
-#product-intro p{
+#quote-text{
 text-align: center;
 font-family: 'Times Ten', serif;
 font-size: 22px;
@@ -97,20 +130,51 @@ letter-spacing: 1.92px;
 line-height: 50px;
 margin-top: 50px;
 margin-bottom: 40px;
+color: #29323B;
+}
+
+#video-desc{
+text-align: center;
+font-family: 'Times Ten', serif;
+font-size: 22px;
+font-weight: 400;
+letter-spacing: 1.92px;
+line-height: 35px;
+margin-top: 40px;
+margin-bottom: 55px;
+color: #29323B;
 }
 
 #product-video{
     display: flex;
+    flex-direction:column;
     justify-content: center;
     margin: 0 auto;
 }
 
+@media (max-width: 768px){
 
+    #product-intro{
+        width: 100%;
+        height: auto;
+        margin:0;
+        padding:0;
+    }
+
+    #product-video{
+        width: 100%;
+        height: auto;
+        margin:0;
+        padding:0;
+}
+}
+
+/* tracklist */
 #album-tracklist{
 display: flex;
     justify-content: center;
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: 0;
     padding: 0;
     margin-top: 0px;
@@ -137,8 +201,17 @@ display: flex;
     
     #tracklist-img{
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: 0;
     padding: 0;
     }
+}
+
+#product-shop{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    background-color: #E5E5E5;
 }
