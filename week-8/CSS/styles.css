@@ -70,6 +70,7 @@ body {
 
 .nav-link a{
     text-decoration: none;
+    cursor: pointer;
     color: transparent;
     background: #E8B562;
    -webkit-background-clip: text;
@@ -92,7 +93,16 @@ body {
         margin:0;
         padding: 0;
     }
+
+    #nav-bar-ul{
+        display:flex;
+        gap:10px;
+        font-size: 10px;
+        justify-content: center;
+    }
+
 }
+
 
 /* video section */
 #product-intro{
@@ -210,10 +220,12 @@ display: flex;
 #product-shop{
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    align-items:center;
     margin:0;
     padding:0;
     background-color: #E5E5E5;
+    width:100%;
+    height: auto;
 }
 
 #product-cards{
@@ -228,16 +240,62 @@ display: flex;
 
 table {
   border-collapse: separate; 
-  border-spacing: 20px; 
+  border-spacing: 50px; 
 }
 
 td{
-    background-color: white;
+    background-color: #F1F1F1;
     text-align: center;
-    width: 300px;
+    font-family: 'Times Ten', serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+    width: 450px;
+    color: #29323B;
+}
+
+td li{
+    list-style: none;
+    margin-right: 50px;
+    line-height: 50px;
+}
+
+td button{
+    margin-top: 60px;
+    margin-bottom: 15px;
+    font-family: 'Times Ten', serif;
+    font-size: 26px;
+    letter-spacing: 9px;
+    font-weight: 400;
+    color: white;      
+    text-shadow: 0px 0px 3px rgb(255, 218, 169);
+    background: #7C8FA0;  
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    box-shadow:none;
+    border-style: initial;
+    transform: none;
+    width: 350px;
+    height: 130px;
+}
+
+.gold-text{
+    color: #B38542;
+    font-family: 'Times Ten', serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .product-img{
-    width: 300px;
+    width: 400px;
     height: auto;
+}
+
+@media (max-width: 768px){
+  table, thead, tbody, th, td, tr { display: block; width: 100%; }
+  tr { margin-bottom: 1rem; }
+  td { box-sizing: border-box; width: 100% !important; padding: 0.75rem; }
+  table { border-spacing: 0; }
 }
