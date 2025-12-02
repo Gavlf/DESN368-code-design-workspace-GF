@@ -92,23 +92,6 @@ body {
         margin:0;
         padding: 0;
     }
-
-    #nav-bar ul{
-        display:flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width:100%;
-        height: auto;
-        margin:0;
-        padding:30px;
-    }
-
-    .nav-link a{
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
 }
 
 /* video section */
@@ -166,6 +149,22 @@ color: #29323B;
         height: auto;
         margin:0;
         padding:0;
+}
+    #video-desc{
+        text-align: center;
+        font-family: 'Times Ten', serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #29323B;
+}
+    #quote-text{
+        text-align: center;
+        font-family: 'Times Ten', serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 33px;
+        color: #29323B;
 }
 }
 
@@ -229,12 +228,13 @@ display: flex;
 
 table {
   border-collapse: separate; 
-  border-spacing: 10px; 
+  border-spacing: 20px; 
 }
 
 td{
     background-color: white;
     text-align: center;
+    width: 300px;
 }
 
 .product-img{
