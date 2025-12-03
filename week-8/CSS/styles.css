@@ -506,5 +506,25 @@ body.fade-out {
         opacity: 1;
     }
 }
+
+/* Mouse light effect (used AI to make this!) */
+#mouse-light {
+  position: fixed;
+  top: 0; left: 0;
+  width: var(--mouse-light-size,220px);
+  height: var(--mouse-light-size,220px);
+  pointer-events: none;
+  transform: translate3d(-50%,-50%,0);
+  background: radial-gradient(circle at 50% 40%,
+    rgba(255,255,220,0.70) 0%,
+    rgba(255,200,100,0.18) 30%,
+    rgba(255,200,100,0.04) 60%,
+    transparent 75%);
+  filter: blur(28px);
+  mix-blend-mode: screen;
+  opacity: 0;
+  z-index: 9999;
+  will-change: transform, opacity;
+  transition: opacity 220ms linear;
 }
 
