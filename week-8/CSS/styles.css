@@ -269,6 +269,10 @@ td li{
     line-height: 50px;
 }
 
+td button:hover{
+    transform: translateY(-5px);
+}
+
 td button{
     margin-top: 60px;
     margin-bottom: 15px;
@@ -401,6 +405,10 @@ form button{
     border: white groove 1px;
     box-shadow: 0px 0px 3px rgb(255, 218, 169);
     transform: none;
+}
+
+form button:hover{
+    transform: translateY(-5px);
 }
 
 ::placeholder{
