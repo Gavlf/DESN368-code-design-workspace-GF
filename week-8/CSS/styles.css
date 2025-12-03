@@ -331,6 +331,15 @@ td button{
     padding 0;
 }
 
+#form-section h2{
+    font-family: 'Times Ten', serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 3px rgb(255, 218, 169);
+    font-weight: 400;
+    letter-spacing: 9px;
+}
+
 
 form{
     max-width: 600px
@@ -342,7 +351,10 @@ select,
 textarea {
   width: 100%;
   padding: 0.5rem;
-  border: 1px solid #ccc;
   font-family: 'Times Ten', serif;
+  color:white;
+  background-color: rgba(217, 217, 217, 0.45);
+  text-shadow: 0px 0px 3px rgb(255, 218, 169);
   font-size: 15px;;
 }
+
