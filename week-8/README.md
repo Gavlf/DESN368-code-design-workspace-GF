@@ -37,3 +37,9 @@ Through this project, I felt like I learned a little more about how media querie
 
 
 (No, this is not written by AI, but Grammarly fixing my writing might make it seem so.)
+
+<img width="1772" height="916" alt="image" src="https://github.com/user-attachments/assets/6554dbd9-d6ee-41c9-a33c-b55b7d392942" />
+
+<img width="1877" height="309" alt="image" src="https://github.com/user-attachments/assets/01302d1a-b159-4900-8a4b-c13aab5cdc6a" />
+
+
