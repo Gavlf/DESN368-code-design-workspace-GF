@@ -5,9 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="javascript" href="Java/scripts.js">
+    <script src="Java/scripts.js" defer></script>
     <title>LUX by Rosalia</title>
 </head>
 <body>
+
+<script>
+  document.body.classList.add('fade-out');
+  window.addEventListener('DOMContentLoaded', () => {
+  document.body.classList.remove('fade-out');
+});
+</script>
+
     <header id="header">
 <img src="images/Hero Image.png" alt="Rosalia Lux Album Cover" id="header-img">
     </header>
@@ -25,7 +34,7 @@
     </nav>
 
     <main>
-    <article id="product-intro">
+    <article id="product-intro" class="image-reveal">
         <p id="quote-text">“An operatic lament for a new generation, an exquisite oratorio for the messy heart.”<br> -PITCHFORK</p>
         <video controls width="1108px" height="634px" poster="images/Video Thumbnail.jpg" id="product-video">
             <source src="videos/Rosalia LUX Teaser.mp4" type="video/mp4">
@@ -35,11 +44,11 @@
 </p>
     </article>
 
-      <figure id="album-tracklist">
+      <figure id="album-tracklist" class="image-reveal">
         <img src="images/Album Tracklist.png" alt="Rosalia Lux Album Tracklist" id="tracklist-img">
     </figure>
 
-    <article id="product-shop">
+    <article id="product-shop" class="image-reveal">
         <table id="product-cards">
             <thead>
                 <tr>
@@ -90,7 +99,7 @@
         </table>
       </article>
 
-      <article id="form-section">
+      <article id="form-section" class="image-reveal">
         <h2 id="form-header">SIGNUP FOR EXCLUSIVE NEWS</h2>
         <form id="news-signup-form">
             <div class="name-form">

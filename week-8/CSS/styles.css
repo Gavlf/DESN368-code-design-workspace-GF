@@ -80,9 +80,6 @@ body {
    text-shadow: 0px 3px 3px rgba(255,255,255,0.5), 0 0 0 rgba(156,112,52,0.5);
 }
 
-.nav-link:hover{
-    transform: translateY(-4px);
-}
 
 #nav-bar{
     background-color: #FFF5E9;
@@ -479,3 +476,35 @@ footer p{
         height: auto;
     }
 }
+
+/* Fade-in and fade-out animation on load */
+
+body {
+  opacity: 1;
+  transition: 1s opacity;
+}
+
+body.fade-out {
+  opacity: 0;
+  transition: none;
+}
+
+/* Scroll fade animation */
+.image-reveal{
+    animation: imageReveal both;
+    animation-timeline: view(100% 1%);
+}
+
+@keyframes imageReveal{
+    from{
+        filter: saturate(0) contrast (4) brightness(.1) blur (10px);
+        opacity:0;
+    }
+    to{
+
+        filter: none;
+        opacity: 1;
+    }
+}
+}
+
