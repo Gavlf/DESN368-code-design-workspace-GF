@@ -476,6 +476,7 @@ footer p{
     font-size:18px;
     margin:0;
     padding:30px;
+    text-shadow: 0px 0px 3px rgb(255, 218, 169);
 }
 
 @media (max-width: 768px){
