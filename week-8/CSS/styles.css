@@ -271,6 +271,8 @@ td li{
 
 td button:hover{
     transform: translateY(-5px);
+    box-shadow: 0px 0px 3px rgb(255, 218, 169);
+    border: white groove 1px;
 }
 
 td button{
