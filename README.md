@@ -1,7 +1,7 @@
 <h1>🖥️ Gavin Figueroa — Web Design Portfolio</h1>
 
-<h2>**DESN368: Code + Design 1 | Fall 2025**
-Eastern Washington University
+<h2>**DESN368: Code + Design 1 | Fall 2025**<br>
+Eastern Washington University<br>
 Instructor: Travis Masingale</h2>
 
 ---
