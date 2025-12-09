@@ -1,0 +1,85 @@
+/* css reset */
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+/* header */
+#header-text{
+    color: white;
+    font-size: 120px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding:20px;
+}
+
+#header-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav */
+#nav-bar{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 2000;
+}
+
+#nav-bar-ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    font-family: 'Outfit', sans-serif;
+    font-size: 55px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 30px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    cursor: pointer;
+    color:white;
+}
+
+/* about me */
+
+
+#about-me h2{
+    font-family: 'Outfit', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+#about-me p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 60px;
+    line-height: 1.6;
+}
+
+#about-me-img{
+    width: 500px;
+    height: auto;
+    margin-bottom: 40px;
+}
