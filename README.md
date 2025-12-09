@@ -82,12 +82,12 @@ This repository documents my work in Design + Code 1 (DESN368) during the Fall Q
 <h3>5️⃣ Week 5 - Flexbox Introduction</h3>
 
 **Topics Covered:**
-- 
-- 
-- 
+- Principles of flexbox
+- How and when to use flexbox
+- Basic flexbox properties
 
 **Key Takeaways:**
-- 
+- Flexbox allows us to more easily organize, align, and present content on a webpage.
 
 **Files:**
 - Flexbox Interactive Tutorial: https://codepen.io/Gavlf/pen/YPwBzYG
@@ -97,16 +97,31 @@ This repository documents my work in Design + Code 1 (DESN368) during the Fall Q
 <h3>6️⃣ Week 6 - Responsive Design and Mobile Layouts</h3>
 
 **Topics Covered:**
-- 
-- 
-- 
+- Using media queries to define screen sizes for responsive design
+- Presenting content on mobile
+- How to use the inspect tools to test mobile layouts
 
 **Key Takeaways:**
-- 
+- Responsive design is an important consideration when making a website and allows your site to be as accessible to users as possible.
 
 **Files:**
 - Flexbox Mobile Nav Interactive Tutorial: https://codepen.io/Gavlf/pen/RNrzYzo
 - Field Guide Website: https://gavlf.github.io/DESN368-code-design-workspace-GF/week-6/field-guide-site.html
+  
+---
+
+<h3>7️⃣ Week 7 - CSS Transforms and Animations</h3>
+
+**Topics Covered:**
+- How to use transforms to add interactivity to your website
+- Principles of CSS animation
+- How to apply and time animations in CSS
+
+**Key Takeaways:**
+- CSS transforms and animations can level up your design by adding interactivity and visual interest to an otherwise flat webpage.
+
+**Files:**
+- Product Landing Page: https://gavlf.github.io/DESN368-code-design-workspace-GF/week-8/product-page.html
   
 ---
 
