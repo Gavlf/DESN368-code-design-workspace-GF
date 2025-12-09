@@ -56,30 +56,53 @@ body {
     color:white;
 }
 
+
 /* about me */
-
-
 #about-me h2{
     font-family: 'Outfit', sans-serif;
     font-size: 80px;
     font-weight: 400;
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 12%;
+    margin-right: 0;
 }
 
 #about-me p{
     font-family: 'Outfit', sans-serif;
     font-size: 24px;
     font-weight: 200;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 12%;
+    margin-right: -9%;
     margin-bottom: 60px;
     line-height: 1.6;
+    text-align: left;
 }
 
 #about-me-img{
     width: 500px;
     height: auto;
     margin-bottom: 40px;
+}
+
+#about-me-list{
+    padding: 0;
+    margin: 0;
+    
+}
+
+#about-me-content{
+     flex: 1;
+}
+
+#about-me {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 50px;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 50px;
 }
