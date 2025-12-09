@@ -1,4 +1,4 @@
-🦥 Gavin Figueroa — Web Design Portfolio
+<h1>🦥 Gavin Figueroa — Web Design Portfolio</h1>
 
 **DESN368: Code + Design 1 | Fall 2025**  
 Eastern Washington University  
@@ -6,7 +6,7 @@ Instructor: Travis Masingale
 
 ---
 
-⁉️ About This Repository
+<h2>⁉️ About This Repository</h2>
 
 This repository documents my journey through DESN368, where I learned to build for the web with HTML and CSS—understanding how the web actually works at the source level.
 
@@ -15,7 +15,7 @@ This repository documents my journey through DESN368, where I learned to build f
 
 ---
 
-🎨 Design Direction
+<h2>🎨 Design Direction</h2>
 
 For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
@@ -29,7 +29,7 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
 ---
 
-⭐ Featured Projects
+<h2>⭐ Featured Projects</h2>
 
 **The Recipe**  
 [1-sentence description]  
@@ -49,7 +49,7 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
 ---
 
-🛠️ Technical Skills Demonstrated
+<h2>🛠️ Technical Skills Demonstrated</h2>
 
 - Semantic HTML5
 - CSS Layout (Flexbox / Grid)
@@ -60,14 +60,14 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
 ---
 
-📁 Archive
+<h2>📁 Archive</h2>
 
 - **[Course Log](./archive/course-log.md)** — Detailed weekly documentation
 - **[Learning Log](./learning-log.html)** — Index of all exercises and projects
 
 ---
 
-🔗 Credits & Citations
+<h2>🔗 Credits & Citations</h2>
 
 **Assets**
 - [List any images, icons, or assets you didn't create]
@@ -81,7 +81,7 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
 ---
 
-🔎 Reflection
+<h2>🔎 Reflection</h2>
 
 [→ Read Full Reflection on Portfolio Site](https://[your-username].github.io/[your-repo-name]/reflection.html)
 
