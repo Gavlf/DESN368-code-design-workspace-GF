@@ -309,3 +309,77 @@ body {
     margin-bottom: -10px;
     text-align: center;
 }
+
+/*responsive styles*/
+@media (max-width: 768px) {
+    #header-text{
+        font-size: 60px;
+        letter-spacing: 5px;
+        padding: 10px;
+    }
+
+@media (max-width: 768px) {
+    #header-img{
+        width: 100%;
+        height: auto;
+    }
+
+@media (max-width: 768px) {
+    #nav-bar-ul{
+        flex-direction: row;
+        gap:20px;
+        font-size: 15px;
+        padding: 20px;
+        width:15px;
+    }
+
+@media (max-width: 768px){
+    #about-me {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    #about-me h2 {
+      font-size: 60px;
+      margin: 0 0 20px 0;
+    }
+  
+    #about-me p, #about-me-list {
+      margin: 0 20px 40px 20px;
+    }
+  
+    #about-me-img {
+      width: 80%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  }
+  
+    #work-showcase h2{
+        font-size: 60px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding-top: 50px;
+    }
+
+    #website-cards p{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    #contact-section h2{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    #contact-section p{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    #contact-list{
+        flex-direction: column;
+        gap:40px;
+    }
+}
