@@ -56,6 +56,10 @@ body {
     color:white;
 }
 
+.nav-link a:hover{
+    color: rgb(183, 183, 183);
+    transition: color 0.3s ease-in-out;
+}
 
 /* about me */
 #about-me {
@@ -134,6 +138,11 @@ body {
     color: white;
 }
 
+#work-showcase h2 img{
+     animation: pulse 2.5s ease-in-out infinite;
+}
+
+
 #work-showcase{
     background-color: black;
     padding-bottom: 40px;
@@ -192,6 +201,11 @@ body {
     margin-bottom: 20px;
 }
 
+.website-card:hover iframe{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
 .website-card iframe{
     position: absolute;
     inset:0;
@@ -200,6 +214,11 @@ body {
     border: 0;
     display: block;
     pointer-events: none;
+    overflow: hidden;
+}
+
+.website-card iframe::-webkit-scrollbar {
+    display: none; 
 }
 
 .star-icon{
@@ -224,6 +243,15 @@ body {
     text-align: center;
     margin-top: 0;
     margin-bottom: 40px;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+#contact-section h2 img{
+   animation: pulse 2.5s ease-in-out infinite;
 }
 
 #contact-section p{
@@ -257,6 +285,12 @@ body {
     border: none;
     cursor: pointer;
     padding: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+#email-button:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 #email-button img{
@@ -264,11 +298,18 @@ body {
     height: auto;
 }
 
+
 #linkedin-button{
     background-color: transparent;
     border: none;
     cursor: pointer;
     padding: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+#linkedin-button:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 #linkedin-button img{
@@ -281,6 +322,12 @@ body {
     border: none;
     cursor: pointer;
     padding: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+#github-button:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 #github-button img{
@@ -291,6 +338,7 @@ body {
 #contact-list button{
         margin-right: 40px;
     }
+
 
 /*footer*/
 #footer-section{
@@ -308,6 +356,28 @@ body {
     font-weight: 200;
     color:white;
     text-align:center;
+}
+
+#footer-links{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+#footer-links a{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+#footer-links a:hover{
+    color: rgb(183, 183, 183);
 }
 
 #credit-tag img{
@@ -429,3 +499,5 @@ body {
         margin-right: 20px;
     }
 }
+
+
