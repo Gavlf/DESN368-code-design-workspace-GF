@@ -10,8 +10,8 @@ Instructor: Travis Masingale
 
 This repository documents my journey through DESN368, where I learned to build for the web with HTML and CSS—understanding how the web actually works at the source level.
 
-- **[View Live Portfolio](https://[your-username].github.io/[your-repo-name]/)**
-- **[View Learning Log](https://[your-username].github.io/[your-repo-name]/learning-log.html)** — Weekly progress & exercises
+- **[View Live Portfolio](https://gavlf.github.io/DESN368-code-design-workspace-GF/)**
+- **[View Learning Log](https://gavlf.github.io/DESN368-code-design-workspace-GF/learning-log.html)** — Weekly progress & exercises
 
 ---
 
@@ -19,33 +19,33 @@ This repository documents my journey through DESN368, where I learned to build f
 
 For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
-- **Header Font:** [Font Name]
-- **Body Font:** [Font Name]
-- **Primary Color:** [Hex Code]
-- **Accent Color:** [Hex Code]
-- **Background:** [Hex Code]
+- **Header Font:** [Outfit]
+- **Body Font:** [Outfit]
+- **Primary Color:** [Black #00000]
+- **Accent Color:** [Gray#DFDFDF]
+- **Background:** [White #FFFFFF]
 
-**[View Figma File](https://www.figma.com/file/[your-figma-link])**
+**[View Figma File](https://www.figma.com/design/SpWOFUKH68MnT3luEJyoAe/WEB-1-Portfolio-Design?node-id=0-1&t=pkmuy6CmSuRLFRYO-1)**
 
 ---
 
 <h2>⭐ Featured Projects</h2>
 
 **The Recipe**  
-[1-sentence description]  
-[View Project](./week-XX/recipe/)
+First fully built website with CSS based on an online recipe for French bread.
+[View Project](https://gavlf.github.io/DESN368-code-design-workspace-GF/week-2/Recipe-site/recipe-gf.html)
 
 **Tribute Site**  
-[1-sentence description]  
-[View Project](./week-XX/tribute/)
+A tribute site to Michael Jackson and the first use of flexbox elements.
+[View Project](https://gavlf.github.io/DESN368-code-design-workspace-GF/week-4/Tribute%20Site/tribute-site-micheal-jackson-gf-f25.html)
 
 **Field Guide**  
-[1-sentence description]  
-[View Project](./week-XX/field-guide/)
+Field guide page that guides users through summer fishing in Animal Crossing: New Horizons.
+[View Project](https://gavlf.github.io/DESN368-code-design-workspace-GF/week-6/field-guide-site.html)
 
 **Product Landing Page**  
-[1-sentence description]  
-[View Project](./week-XX/landing-page/)
+Product landing page for Rosalia's "LUX" album.
+[View Project](https://gavlf.github.io/DESN368-code-design-workspace-GF/week-8/product-page.html)
 
 ---
 
@@ -62,29 +62,31 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
 <h2>📁 Archive</h2>
 
-- **[Course Log](./archive/course-log.md)** — Detailed weekly documentation
-- **[Learning Log](./learning-log.html)** — Index of all exercises and projects
+- **[Course Log](https://github.com/Gavlf/DESN368-code-design-workspace-GF/blob/main/archive/course-log.md)** — Detailed weekly documentation
+- **[Learning Log](https://gavlf.github.io/DESN368-code-design-workspace-GF/learning-log.html)** — Index of all exercises and projects
 
 ---
 
 <h2>🔗 Credits & Citations</h2>
 
 **Assets**
-- [List any images, icons, or assets you didn't create]
+- Shop content images/descriptions on product landing page taken from Rosalia's official shop
+- Animal Crossing icons taken from Animal Crossing Wiki
+- Contact icons on portfolio taken from Google Images
 
 **Tutorials & Resources**
-- [Any tutorials or Stack Overflow threads that helped]
+- CSSnippets on YouTube
+- In-class tutorial content 
 
 **AI Assistance**
-- [If used: "Used Claude for debugging CSS grid in Week 6"]
-- [If none: "No AI assistance used"]
+- Used GitHub Copilot for debugging, general questions, and Java elements.
 
 ---
 
 <h2>🔎 Reflection</h2>
 
-[→ Read Full Reflection on Portfolio Site](https://[your-username].github.io/[your-repo-name]/reflection.html)
+[→ Read Full Reflection on Portfolio Site](https://gavlf.github.io/DESN368-code-design-workspace-GF/week-9/reflection.html)
 
 ---
 
-© 2025 [Your Name]. Built for DESN368 at Eastern Washington University.
+© 2025 Gavin Figueroa. Built for DESN368 at Eastern Washington University.
