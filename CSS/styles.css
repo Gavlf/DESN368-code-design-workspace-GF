@@ -4,7 +4,6 @@ body {
     padding: 0;
   }
 
-
 /* header */
 #header-text{
     color: white;
@@ -35,6 +34,7 @@ body {
     top: 0;
     overflow: hidden;
     z-index: 2000;
+    
 }
 
 #nav-bar-ul{
@@ -58,6 +58,10 @@ body {
 
 
 /* about me */
+#about-me {
+    scroll-margin-top: 150px; 
+}
+
 #about-me h2{
     font-family: 'Outfit', sans-serif;
     font-size: 100px;
@@ -133,6 +137,7 @@ body {
 #work-showcase{
     background-color: black;
     padding-bottom: 40px;
+    scroll-margin-top: 120px; 
 }
 
 #website-cards {
