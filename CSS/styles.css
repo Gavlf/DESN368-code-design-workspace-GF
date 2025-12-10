@@ -1,3 +1,11 @@
+/* Define color and font variables */
+:root {
+    --font-family: 'Outfit', sans-serif;
+    --font-size-header: 120px;
+    --color-header: white;
+    --color-background: black;
+}
+
 /* css reset */
 body {
     margin: 0;
@@ -6,13 +14,13 @@ body {
 
 /* header */
 #header-text{
-    color: white;
-    font-size: 120px;
-    font-family: 'Outfit', sans-serif;
+    color: var(--color-header);
+    font-size: var(--font-size-header);
+    font-family: var(--font-family);
     font-weight: 400;
     letter-spacing: 10px;
     text-align: center;
-    background-color: black;
+    background-color: var(--color-background);
     margin: 0;
     padding:20px;
 }
