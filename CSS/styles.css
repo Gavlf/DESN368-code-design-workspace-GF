@@ -60,7 +60,7 @@ body {
 /* about me */
 #about-me h2{
     font-family: 'Outfit', sans-serif;
-    font-size: 80px;
+    font-size: 100px;
     font-weight: 400;
     text-align: center;
     margin-top: 0;
@@ -121,7 +121,7 @@ body {
 /* work */
 #work-showcase h2{
     font-family: 'Outfit', sans-serif;
-    font-size: 120px;
+    font-size: 100px;
     font-weight: 400;
     text-align: center;
     margin-top: 80px;
@@ -132,6 +132,7 @@ body {
 
 #work-showcase{
     background-color: black;
+    padding-bottom: 40px;
 }
 
 #website-cards {
@@ -142,6 +143,7 @@ body {
     padding: 0 20px;
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 40px;
 }
 
 #website-cards tr {
@@ -197,4 +199,113 @@ body {
 
 .star-icon{
     padding:50px;
+}
+
+/* contact-section*/
+
+#contact-section{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin:0;
+    padding:50px;
+}
+
+#contact-section h2{
+    font-family: 'Outfit', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+#contact-section p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+#contact-list{
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    margin-top:40px;
+    margin-left: 0;
+    margin-right: 0;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap:120px;
+}
+
+#email-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+#email-button img{
+    width: 100px;
+    height: auto;
+}
+
+#linkedin-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+#linkedin-button img{
+    width: 100px;
+    height: auto;
+}
+
+#github-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+#github-button img{
+    width: 100px;
+    height: auto;
+}
+
+/*footer*/
+#footer-section{
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin:0;
+    padding: 20px;
+}
+
+#footer-section p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color:white;
+    text-align:center;
+}
+
+#credit-tag img{
+    width:40px;
+    height:auto;
+    margin-left:10px;
+    margin-right:5px;
+    margin-bottom: -10px;
+    text-align: center;
 }
