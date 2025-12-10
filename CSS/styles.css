@@ -283,6 +283,10 @@ body {
     height: auto;
 }
 
+#contact-list button{
+        margin-right: 40px;
+    }
+
 /*footer*/
 #footer-section{
     background-color: black;
@@ -326,11 +330,19 @@ body {
 
 @media (max-width: 768px) {
     #nav-bar-ul{
+        display:flex;
         flex-direction: row;
-        gap:20px;
+        justify-content: space-around;
+        gap:33px;
+        text-align:center;
         font-size: 15px;
         padding: 20px;
         width:15px;
+    }
+
+    #nav-bar-ul img{
+        width:15px;
+        height:auto;
     }
 
 @media (max-width: 768px){
@@ -338,16 +350,26 @@ body {
       flex-direction: column;
       align-items: center;
       text-align: center;
+      margin:0;
     }
   
     #about-me h2 {
       font-size: 60px;
       margin: 0 0 20px 0;
+
     }
   
-    #about-me p, #about-me-list {
+    #about-me p {
       margin: 0 20px 40px 20px;
+      text-align: center;
+      font-size:20px;
     }
+
+     #about-me-list{
+        margin: 0 20px 40px 20px;
+        font-size:20px;
+        line-height: 1.8;
+     }
   
     #about-me-img {
       width: 80%;
@@ -361,6 +383,8 @@ body {
         margin-top: 40px;
         margin-bottom: 20px;
         padding-top: 50px;
+        display:flex;
+        flex-direction:row;
     }
 
     #website-cards p{
@@ -371,6 +395,17 @@ body {
     #contact-section h2{
         font-size: 60px;
         margin-bottom: 20px;
+        display:flex;
+        flex-direction:row;
+    }
+
+     #contact-section h2 img{
+        width:20px;
+        height:auto;
+        margin:0;
+        padding:0;
+        display:flex;
+        flex-direction:row;
     }
 
     #contact-section p{
@@ -379,7 +414,13 @@ body {
     }
 
     #contact-list{
-        flex-direction: column;
+        flex-direction: row;
         gap:40px;
+    }
+
+    #contact-list button img{
+        width:50px;
+        height:auto;
+        margin-right: 20px;
     }
 }
